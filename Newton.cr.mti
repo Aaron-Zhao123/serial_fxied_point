@@ -1,0 +1,22 @@
+/home/aaron/verilog/Serial_fixed_point/Serial_add.v {1 {vlog -work work -stats=none /home/aaron/verilog/Serial_fixed_point/Serial_add.v
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module Serial_add
+
+Top level modules:
+	Serial_add
+
+} {} {}} /home/aaron/verilog/Serial_fixed_point/Serial_mul.v {1 {vlog -work work -stats=none /home/aaron/verilog/Serial_fixed_point/Serial_mul.v
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module Serial_mul
+
+Top level modules:
+	Serial_mul
+
+} {} {}} /home/aaron/verilog/Serial_fixed_point/Serial_div.v {1 {vlog -work work -stats=none /home/aaron/verilog/Serial_fixed_point/Serial_div.v
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module Serial_div
+
+Top level modules:
+	Serial_div
+
+} {} {}}

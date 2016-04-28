@@ -1,0 +1,182 @@
+module Serial_mul(
+x,
+y,
+clk,
+product_bit,
+asyn_reset,
+data_x_vld,
+data_x_rdy,
+data_y_vld,
+data_y_rdy,
+d_out_vld,
+d_out_rdy
+);
+
+parameter width = 8;
+parameter START=2'd0;
+parameter COMP=2'd1;
+parameter END=2'd2;
+
+input[width - 1] x, y;
+input clk;
+input asyn_reset;
+input data_x_vld, data_y_vld;
+input d_out_rdy;
+output d_out_vld;
+output product_bit;
+output data_x_rdy, data_y_rdy;
+
+reg data_x_rdy, data_y_rdy;
+reg d_out_vld;
+reg[1:0] STATE;
+reg [width-1 0] x_operand, y_operand;
+
+//adder
+reg[width-1 : 0] sum_op, add_op_one, add_op_two;
+reg cin, cout;
+reg add_enable;
+
+// select and inversion, performing on add_op_one
+reg sel_enable;
+
+
+
+// handshake protocool
+reg hd_x, hd_y, hd_z;
+
+	
+//buliding handshake mechanism with other moduels
+// hd FSM, state transitions
+always @ (posedge clk or posedge asyn_reset) begin
+	if (asyn_reset == 1) begin 
+		STATE <= START;
+		hd_x <= 0;
+		hd_y <= 0;
+		hd_z <= 0;
+		data_x_rdy <= 0;
+		data_y_rdy <= 0;
+		d_out_vld<= 0;
+		x_operand <= 0;
+		y_operand <= 0;	
+	end
+	else begin
+		case (STATE)
+			START: begin
+				// if both hd happen 
+				if (hd_x == 1 && hd_y == 1) begin
+					STATE <= COMP;
+					hd_x <= 0;
+					hd_y <= 0;
+				end
+				if (data_x_rdy && data_x_vld) begin
+					hd_x <= 1;
+					x_operand <= x;
+				end
+				if (data_y_rdy && data_y_vld) begin
+					hd_y <= 1;
+					y_operand <= y;
+				end
+			end
+			COMP: begin
+				if (finish == 1) begin
+					STATE <= END;
+				end
+			end
+			END: begin
+				if (hd_z == 1) begin 
+					STATE <= START;
+					hd_z <= 0;
+				end
+				if (d_out_vld&&d_out_rdy) begin
+					hd_z <= 1;
+					d_out_vld <= 0;
+				end
+			end
+			default: begin
+				STATE <= START;
+			end
+		endcase
+	end
+	
+//output signals are data_x_rdy,data_y_rdy,data_out_vld;
+always @ (*) begin
+	case (STATE)
+		START: begin
+			if (hd_x == 0) begin
+				data_x_rdy <= 1;
+			end
+			else begin 
+				data_x_rdy <= 0;
+			end
+			if (hd_y == 0) begin
+				data_y_rdy <= 1;
+			end
+			else begin
+				data_y_rdy <= 0;
+			end	
+			d_out_vld <=0;
+			add_enable <= 0;
+		end
+		COMP: begin
+			data_x_rdy <= 0;
+			data_y_rdy <= 0;
+			d_out_vld <= 0;
+			add_enable <= 1;
+		end
+		END: begin
+			data_x_rdy <= 0;
+			data_y_rdy <= 0;
+			d_out_vld <= 1;
+			add_enable <= 0;
+		end
+		default: begin
+			data_x_rdy <= 0;
+			data_y_rdy <= 0;
+			d_out_vld<= 0;
+			add_enable <= 0;
+		end
+	endcase
+end
+
+// adder 
+always @ (*) begin
+	if (add_enable) begin
+		{cout, sum_op} = add_op_one + add_op_two + cin;
+	end
+	else begin
+		cout <= 0;
+		sum_op <= 0;
+	end
+end
+// select add_op_one
+always @ (*) begin
+	if (select_enable) begin
+		if (mul_bit == 1) begin
+			add_op_one <= x_operand;
+		end
+		else begin
+			add_op_one <= 0; 
+		end
+	end
+	else begin
+	end
+end
+//shifting 
+always @(posedge clk or posedge asyn_reset) begin
+	if (asyn_reset == 1) begin
+		mul_bit <= 0;
+	end
+	else begin
+		if (shift_enable == 1) begin
+			mul_bit <= y_operand[0];
+			y_operand <= {1'b0,y_operand[width-1:1]};
+		end
+		else begin 
+			mul_bit <= 0;
+		end
+	end
+end
+
+
+end
+	

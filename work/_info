@@ -1,0 +1,153 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/aaron/verilog/add_hd/src_adder
+vSerial_add
+Z0 !s110 1455490272
+!i10b 1
+!s100 K9HEKZlF=7N=Sc7Hb_TJ[3
+IQ8j[>A:icG]::PegF]Y_o1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/aaron/verilog/Serial_fixed_point
+w1455453552
+8/home/aaron/verilog/Serial_fixed_point/Serial_add.v
+F/home/aaron/verilog/Serial_fixed_point/Serial_add.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1455490272.000000
+!s107 /home/aaron/verilog/Serial_fixed_point/Serial_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/aaron/verilog/Serial_fixed_point/Serial_add.v|
+!i113 1
+Z5 o-work work
+n@serial_add
+vSerial_div
+R0
+!i10b 1
+!s100 ;Phd=SGQeDdQY;KJ17j@A3
+INzDcEl?60jKMF:=``Lib=2
+R1
+R2
+w1455485729
+8/home/aaron/verilog/Serial_fixed_point/Serial_div.v
+F/home/aaron/verilog/Serial_fixed_point/Serial_div.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/aaron/verilog/Serial_fixed_point/Serial_div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/aaron/verilog/Serial_fixed_point/Serial_div.v|
+!i113 1
+R5
+n@serial_div
+vSerial_mul
+R0
+!i10b 1
+!s100 FGBIL83;SKBV`PM]N<bzX1
+IZYa4K9V881lDF4CVWd0k<3
+R1
+R2
+w1455453553
+8/home/aaron/verilog/Serial_fixed_point/Serial_mul.v
+F/home/aaron/verilog/Serial_fixed_point/Serial_mul.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/aaron/verilog/Serial_fixed_point/Serial_mul.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/aaron/verilog/Serial_fixed_point/Serial_mul.v|
+!i113 1
+R5
+n@serial_mul
+vtestbench
+!s110 1454101451
+!i10b 1
+!s100 Kc_LK8XGnlC6D6mbL0RU[1
+IJO^`E:8Qlg[ZId2DXYz520
+R1
+R2
+w1454098366
+8/home/aaron/verilog/Serial_fixed_point/testben_add.v
+F/home/aaron/verilog/Serial_fixed_point/testben_add.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1454101451.000000
+!s107 /home/aaron/verilog/Serial_fixed_point/testben_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/aaron/verilog/Serial_fixed_point/testben_add.v|
+!i113 1
+R5
+vtestbench_div
+!s110 1454880523
+!i10b 1
+!s100 zT>e77WOMj97jn4BWf5R[1
+I8GLTZfTKig4Ydda7DLYQi3
+R1
+R2
+w1454870294
+8/home/aaron/verilog/Serial_fixed_point/testbench.div.v
+F/home/aaron/verilog/Serial_fixed_point/testbench.div.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1454880522.000000
+!s107 /home/aaron/verilog/Serial_fixed_point/testbench.div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/aaron/verilog/Serial_fixed_point/testbench.div.v|
+!i113 1
+R5
+vtestbench_mul
+!s110 1454883129
+!i10b 1
+!s100 K>;WQ;YNacecz]lohHa:>0
+ICQVM1RSbBOglGjRkXWAXb3
+R1
+R2
+w1454883121
+8/home/aaron/verilog/Serial_fixed_point/testbench_mul.v
+F/home/aaron/verilog/Serial_fixed_point/testbench_mul.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1454883129.000000
+!s107 /home/aaron/verilog/Serial_fixed_point/testbench_mul.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/aaron/verilog/Serial_fixed_point/testbench_mul.v|
+!i113 1
+R5
+vtestbench_newton
+!s110 1455490273
+!i10b 1
+!s100 j85UPJE]@;=BB3<@I?jO]0
+IjQ`^QBijAEnn]nT1ZY<>13
+R1
+R2
+w1455490269
+8/home/aaron/verilog/Serial_fixed_point/testbench_Newton_serial.v
+F/home/aaron/verilog/Serial_fixed_point/testbench_Newton_serial.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1455490273.000000
+!s107 /home/aaron/verilog/Serial_fixed_point/testbench_Newton_serial.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/aaron/verilog/Serial_fixed_point/testbench_Newton_serial.v|
+!i113 1
+R5

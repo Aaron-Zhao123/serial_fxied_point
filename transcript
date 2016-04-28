@@ -1,0 +1,1046 @@
+# Loading project div
+# Compile of Serial_div.v failed with 2 errors.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# vsim work.testbench_div 
+# Start time: 11:18:51 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/width
+add wave -position end  sim:/testbench_div/x
+add wave -position end  sim:/testbench_div/y
+add wave -position end  sim:/testbench_div/quotient
+add wave -position end  sim:/testbench_div/clk
+add wave -position end  sim:/testbench_div/asyn_reset
+add wave -position end  sim:/testbench_div/data_x_vld
+add wave -position end  sim:/testbench_div/data_y_vld
+add wave -position end  sim:/testbench_div/d_out_rdy
+add wave -position end  sim:/testbench_div/data_x_rdy
+add wave -position end  sim:/testbench_div/data_y_rdy
+add wave -position end  sim:/testbench_div/d_out_vld
+add wave -position end  sim:/testbench_div/product_bit
+add wave -position end  sim:/testbench_div/cnt
+add wave -position end  sim:/testbench_div/data_in_file_x
+add wave -position end  sim:/testbench_div/data_in_file_y
+add wave -position end  sim:/testbench_div/scan_file_x
+add wave -position end  sim:/testbench_div/scan_file_y
+run 10us
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "/home/aaron/verilog/Serial_fixed_point/x_value_div.txt" for reading.
+# No such file or directory. (errno = ENOENT)    : /home/aaron/verilog/Serial_fixed_point/testbench.div.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_div
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "/home/aaron/verilog/Serial_fixed_point/y_value_div.txt" for reading.
+# No such file or directory. (errno = ENOENT)    : /home/aaron/verilog/Serial_fixed_point/testbench.div.v(43)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 290 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 290 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 570 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 570 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1130 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1130 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1410 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1410 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1690 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1690 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1970 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1970 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 2250 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 2250 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 2530 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 2530 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 2810 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 2810 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3090 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3090 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3370 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3370 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3650 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3650 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3930 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 3930 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 4210 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 4210 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 4490 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 4490 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 4770 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 4770 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5050 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5050 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5330 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5330 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5610 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5610 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5890 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 5890 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 6170 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 6170 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 6450 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 6450 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 6730 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 6730 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7010 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7010 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7290 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7290 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7570 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7570 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7850 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 7850 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8130 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8130 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8410 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8410 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8690 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8690 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8970 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 8970 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 9250 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 9250 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 9530 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 9530 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(32): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 9810 ns  Iteration: 1  Instance: /testbench_div
+# ** Error (suppressible): (vsim-PLI-3084) /home/aaron/verilog/Serial_fixed_point/testbench.div.v(35): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 9810 ns  Iteration: 1  Instance: /testbench_div
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 10:10:26 on Feb 07,2016, Elapsed time: -1:-8:-25
+# Errors: 72, Warnings: 2
+# vsim work.testbench_div 
+# Start time: 10:10:26 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/width
+add wave -position end  sim:/testbench_div/x
+add wave -position end  sim:/testbench_div/y
+add wave -position end  sim:/testbench_div/quotient
+add wave -position end  sim:/testbench_div/clk
+add wave -position end  sim:/testbench_div/asyn_reset
+add wave -position end  sim:/testbench_div/data_x_vld
+add wave -position end  sim:/testbench_div/data_y_vld
+add wave -position end  sim:/testbench_div/d_out_rdy
+add wave -position end  sim:/testbench_div/data_x_rdy
+add wave -position end  sim:/testbench_div/data_y_rdy
+add wave -position end  sim:/testbench_div/d_out_vld
+add wave -position end  sim:/testbench_div/product_bit
+add wave -position end  sim:/testbench_div/cnt
+add wave -position end  sim:/testbench_div/data_in_file_x
+add wave -position end  sim:/testbench_div/data_in_file_y
+add wave -position end  sim:/testbench_div/scan_file_x
+add wave -position end  sim:/testbench_div/scan_file_y
+run 10us
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+restart
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:21:13 on Feb 07,2016, Elapsed time: 2:10:47
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:21:13 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:23:18 on Feb 07,2016, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:23:18 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:26:14 on Feb 07,2016, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:26:14 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v failed with 1 errors.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:30:39 on Feb 07,2016, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:30:39 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:33:22 on Feb 07,2016, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:33:22 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v failed with 1 errors.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 1 failed with 1 error.
+vsim work.testbench_div
+# End time: 12:35:54 on Feb 07,2016, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:35:54 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v failed with 1 errors.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:37:16 on Feb 07,2016, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:37:16 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/remainder_next_cycle
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v failed with 1 errors.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Serial_div.v failed with 1 errors.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:44:53 on Feb 07,2016, Elapsed time: 0:07:37
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:44:53 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/remainder_next_cycle
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:46:19 on Feb 07,2016, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:46:19 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/width
+add wave -position end  sim:/testbench_div/x
+add wave -position end  sim:/testbench_div/y
+add wave -position end  sim:/testbench_div/quotient
+add wave -position end  sim:/testbench_div/clk
+add wave -position end  sim:/testbench_div/asyn_reset
+add wave -position end  sim:/testbench_div/data_x_vld
+add wave -position end  sim:/testbench_div/data_y_vld
+add wave -position end  sim:/testbench_div/d_out_rdy
+add wave -position end  sim:/testbench_div/data_x_rdy
+add wave -position end  sim:/testbench_div/data_y_rdy
+add wave -position end  sim:/testbench_div/d_out_vld
+add wave -position end  sim:/testbench_div/product_bit
+add wave -position end  sim:/testbench_div/cnt
+add wave -position end  sim:/testbench_div/data_in_file_x
+add wave -position end  sim:/testbench_div/data_in_file_y
+add wave -position end  sim:/testbench_div/scan_file_x
+add wave -position end  sim:/testbench_div/scan_file_y
+run 10us
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+run 10us
+restart
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 12:57:54 on Feb 07,2016, Elapsed time: 0:11:35
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 12:57:54 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+add wave -position end  sim:/testbench_div/div/tmp
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 13:05:46 on Feb 07,2016, Elapsed time: 0:07:52
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 13:05:46 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+add wave -position end  sim:/testbench_div/div/tmp
+add wave -position end  sim:/testbench_div/div/step_one
+add wave -position end  sim:/testbench_div/div/step_two
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 13:07:09 on Feb 07,2016, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 13:07:09 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+add wave -position end  sim:/testbench_div/div/tmp
+add wave -position end  sim:/testbench_div/div/step_one
+add wave -position end  sim:/testbench_div/div/step_two
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 13:09:50 on Feb 07,2016, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 13:09:50 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/width
+add wave -position end  sim:/testbench_div/x
+add wave -position end  sim:/testbench_div/y
+add wave -position end  sim:/testbench_div/quotient
+add wave -position end  sim:/testbench_div/clk
+add wave -position end  sim:/testbench_div/asyn_reset
+add wave -position end  sim:/testbench_div/data_x_vld
+add wave -position end  sim:/testbench_div/data_y_vld
+add wave -position end  sim:/testbench_div/d_out_rdy
+add wave -position end  sim:/testbench_div/data_x_rdy
+add wave -position end  sim:/testbench_div/data_y_rdy
+add wave -position end  sim:/testbench_div/d_out_vld
+add wave -position end  sim:/testbench_div/product_bit
+add wave -position end  sim:/testbench_div/cnt
+add wave -position end  sim:/testbench_div/data_in_file_x
+add wave -position end  sim:/testbench_div/data_in_file_y
+add wave -position end  sim:/testbench_div/scan_file_x
+add wave -position end  sim:/testbench_div/scan_file_y
+run 10us
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+add wave -position end  sim:/testbench_div/div/tmp
+add wave -position end  sim:/testbench_div/div/step_one
+add wave -position end  sim:/testbench_div/div/step_two
+restart
+run 1ous
+# Invalid time value: 1ous
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 13:15:08 on Feb 07,2016, Elapsed time: 0:05:18
+# Errors: 1, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 13:15:08 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+# status=1
+# bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data"
+add wave -position end  bad
+# Drop insertion failed: bad
+# (vish-4014) No objects found matching 'bad'.
+add wave -position end  window
+# Drop insertion failed: window
+# (vish-4014) No objects found matching 'window'.
+add wave -position end  path
+# Drop insertion failed: path
+# (vish-4014) No objects found matching 'path'.
+add wave -position end  name
+# Drop insertion failed: name
+# (vish-4014) No objects found matching 'name'.
+add wave -position end  .main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data
+# Drop insertion failed: .main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data
+# (vish-4014) No objects found matching '.main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data'.
+# status=1
+# bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data"
+add wave -position end  bad
+# Drop insertion failed: bad
+# (vish-4014) No objects found matching 'bad'.
+add wave -position end  window
+# Drop insertion failed: window
+# (vish-4014) No objects found matching 'window'.
+add wave -position end  path
+# Drop insertion failed: path
+# (vish-4014) No objects found matching 'path'.
+add wave -position end  name
+# Drop insertion failed: name
+# (vish-4014) No objects found matching 'name'.
+add wave -position end  .main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data
+# Drop insertion failed: .main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data
+# (vish-4014) No objects found matching '.main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data'.
+# status=1
+# bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data"
+add wave -position end  bad
+# Drop insertion failed: bad
+# (vish-4014) No objects found matching 'bad'.
+add wave -position end  window
+# Drop insertion failed: window
+# (vish-4014) No objects found matching 'window'.
+add wave -position end  path
+# Drop insertion failed: path
+# (vish-4014) No objects found matching 'path'.
+add wave -position end  name
+# Drop insertion failed: name
+# (vish-4014) No objects found matching 'name'.
+add wave -position end  .main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data
+# Drop insertion failed: .main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data
+# (vish-4014) No objects found matching '.main_pane.wave.interior.cs.body.pw.wf.grid.row1,name.data'.
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+add wave -position end  sim:/testbench_div/div/tmp
+add wave -position end  sim:/testbench_div/div/step_one
+add wave -position end  sim:/testbench_div/div/step_two
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 13:17:37 on Feb 07,2016, Elapsed time: 0:02:29
+# Errors: 33, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 13:17:37 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+add wave -position end  sim:/testbench_div/div/tmp
+add wave -position end  sim:/testbench_div/div/step_one
+add wave -position end  sim:/testbench_div/div/step_two
+run 10us
+# Compile of Serial_div.v failed with 3 errors.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 13:22:24 on Feb 07,2016, Elapsed time: 0:04:47
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 13:22:24 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/div/width
+add wave -position end  sim:/testbench_div/div/START
+add wave -position end  sim:/testbench_div/div/COMP
+add wave -position end  sim:/testbench_div/div/END
+add wave -position end  sim:/testbench_div/div/STATE
+add wave -position end  sim:/testbench_div/div/x
+add wave -position end  sim:/testbench_div/div/y
+add wave -position end  sim:/testbench_div/div/quotient
+add wave -position end  sim:/testbench_div/div/clk
+add wave -position end  sim:/testbench_div/div/asyn_reset
+add wave -position end  sim:/testbench_div/div/data_x_vld
+add wave -position end  sim:/testbench_div/div/data_y_vld
+add wave -position end  sim:/testbench_div/div/data_x_rdy
+add wave -position end  sim:/testbench_div/div/data_y_rdy
+add wave -position end  sim:/testbench_div/div/d_out_rdy
+add wave -position end  sim:/testbench_div/div/d_out_vld
+add wave -position end  sim:/testbench_div/div/x_operand
+add wave -position end  sim:/testbench_div/div/y_operand
+add wave -position end  sim:/testbench_div/div/remainder
+add wave -position end  sim:/testbench_div/div/quotient_reg
+add wave -position end  sim:/testbench_div/div/counter
+add wave -position end  sim:/testbench_div/div/counter_enable
+add wave -position end  sim:/testbench_div/div/shift_enable
+add wave -position end  sim:/testbench_div/div/finish
+add wave -position end  sim:/testbench_div/div/computing_q
+add wave -position end  sim:/testbench_div/div/test_flag
+add wave -position end  sim:/testbench_div/div/hd_x
+add wave -position end  sim:/testbench_div/div/hd_y
+add wave -position end  sim:/testbench_div/div/hd_z
+add wave -position end  sim:/testbench_div/div/tmp
+add wave -position end  sim:/testbench_div/div/step_one
+add wave -position end  sim:/testbench_div/div/step_two
+run 10us
+# Compile of Serial_div.v was successful.
+# Compile of testbench.div.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_div
+# End time: 13:28:50 on Feb 07,2016, Elapsed time: 0:06:26
+# Errors: 0, Warnings: 0
+# vsim work.testbench_div 
+# Start time: 13:28:50 on Feb 07,2016
+# Loading work.testbench_div
+# Loading work.Serial_div
+add wave -position end  sim:/testbench_div/width
+add wave -position end  sim:/testbench_div/x
+add wave -position end  sim:/testbench_div/y
+add wave -position end  sim:/testbench_div/quotient
+add wave -position end  sim:/testbench_div/clk
+add wave -position end  sim:/testbench_div/asyn_reset
+add wave -position end  sim:/testbench_div/data_x_vld
+add wave -position end  sim:/testbench_div/data_y_vld
+add wave -position end  sim:/testbench_div/d_out_rdy
+add wave -position end  sim:/testbench_div/data_x_rdy
+add wave -position end  sim:/testbench_div/data_y_rdy
+add wave -position end  sim:/testbench_div/d_out_vld
+add wave -position end  sim:/testbench_div/product_bit
+add wave -position end  sim:/testbench_div/cnt
+add wave -position end  sim:/testbench_div/data_in_file_x
+add wave -position end  sim:/testbench_div/data_in_file_y
+add wave -position end  sim:/testbench_div/scan_file_x
+add wave -position end  sim:/testbench_div/scan_file_y
+run 10us
+quit -sim
+# End time: 14:07:03 on Feb 07,2016, Elapsed time: 0:38:13
+# Errors: 0, Warnings: 0
+# reading /home/aaron/altera/15.1/modelsim_ase/linuxaloem/../modelsim.ini
