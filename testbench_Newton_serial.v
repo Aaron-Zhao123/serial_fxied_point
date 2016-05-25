@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 module testbench_newton();
 
-parameter width = 64;
+parameter width = 128;
 
 reg clk;
 reg asyn_reset;

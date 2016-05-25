@@ -5,6 +5,13 @@ Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
 Top level modules:
 	Serial_add
 
+} {} {}} /home/aaron/verilog/Serial_fixed_point/testbench_Newton_serial.v {1 {vlog -work work -stats=none /home/aaron/verilog/Serial_fixed_point/testbench_Newton_serial.v
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module testbench_newton
+
+Top level modules:
+	testbench_newton
+
 } {} {}} /home/aaron/verilog/Serial_fixed_point/Serial_mul.v {1 {vlog -work work -stats=none /home/aaron/verilog/Serial_fixed_point/Serial_mul.v
 Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
 -- Compiling module Serial_mul

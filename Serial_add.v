@@ -12,7 +12,7 @@ data_y_rdy,
 d_out_vld,
 d_out_rdy
 );
-parameter width = 64;
+parameter width = 128;
 parameter START=2'd0;
 parameter COMP=2'd1;
 parameter END=2'd2;
